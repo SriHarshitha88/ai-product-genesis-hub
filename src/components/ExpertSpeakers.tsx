@@ -1,85 +1,45 @@
-
 const speakers = [
   {
-    name: "Emad Mostaque",
-    role: "Founder & CEO",
-    company: "Stability AI",
-    expertise: "Generative AI, Open Source AI",
-    topic: "The Next Frontier: Generative AI for Product Builders",
-    image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
+    name: "Utpal Chakraborty",
+    role: "Chief Technology Officer",
+    company: "IntellAI",
+    expertise: "Data Science, Artificial Intelligence, Quantum Computing, Digital Transformation",
+    topic: "AI-Driven Product Ideation and Prototyping",
+    image: "/speakers/utpal-chakraborty.png"
   },
   {
-    name: "May Habib",
-    role: "Co-founder & CEO",
-    company: "Writer",
-    expertise: "Enterprise AI Products, Go-to-Market Strategy",
-    topic: "Building Enterprise-Grade AI Products",
-    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
+    name: "Jaspreet Bindra",
+    role: "Founder and Managing Director",
+    company: "Tech Whisperer (India/UK)",
+    expertise: "Artificial Intelligence, Blockchain, Digital Transformation, Product Strategy",
+    topic: "Strategic AI Product Development for PMs",
+    image: "/speakers/jaspreet-bindra.png"
   },
   {
-    name: "Andrew Ng",
-    role: "Founder",
-    company: "DeepLearning.AI",
-    expertise: "AI Education, Machine Learning",
-    topic: "AI Product Management Fundamentals",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
+    name: "Rahul Ganjoo",
+    role: "Vice President of Product",
+    company: "Zomato",
+    expertise: "Product Management, Go-to-Market Strategy, Consumer Tech, AI Product Scaling",
+    topic: "Crafting Winning AI Product GTM Plans",
+    image: "/speakers/rahul-ganjoo.png"
   },
   {
-    name: "Linus Lee",
-    role: "Head of AI",
-    company: "Notion",
-    expertise: "AI Integration, Product Design",
-    topic: "Integrating AI into Existing Products",
-    image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
+    name: "Naiyya Saggi",
+    role: "Co-Founder and CEO",
+    company: "The Good Glamm Group",
+    expertise: "Entrepreneurship, Ethical AI, Consumer Tech, Scaling Startups",
+    topic: "Building Ethical AI Products for Scale",
+    image: "/speakers/naiyya-saggi.png"
   },
   {
-    name: "Alexandr Wang",
-    role: "Founder & CEO",
-    company: "Scale AI",
-    expertise: "Data Quality, AI Training",
-    topic: "Data-Centric AI Product Development",
-    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
-  },
-  {
-    name: "Joanne Chen",
-    role: "Partner",
-    company: "Foundation Capital",
-    expertise: "AI Investment, Market Trends",
-    topic: "What VCs Look for in AI Products",
-    image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=761&q=80"
-  },
-  {
-    name: "Matt Turck",
-    role: "Managing Director",
-    company: "FirstMark",
-    expertise: "AI Ecosystem, Competitive Landscape",
-    topic: "Navigating the AI Tools Landscape",
-    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
-  },
-  {
-    name: "Cathy Pearl",
-    role: "UX Lead",
-    company: "Google Assistant",
-    expertise: "Voice UI/UX, Conversational Design",
-    topic: "Designing Human-Centered AI Experiences",
-    image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80"
-  },
-  {
-    name: "Shreya Shankar",
-    role: "ML Engineer",
-    company: "formerly Stripe/Google",
-    expertise: "ML Engineering, Cross-functional Collaboration",
-    topic: "PM-Engineer Collaboration in AI Products",
-    image: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=80"
-  },
-  {
-    name: "Aravind Srinivas",
-    role: "Co-founder & CEO",
-    company: "Perplexity AI",
-    expertise: "Search AI, Consumer Products",
-    topic: "Reinventing Search with AI",
-    image: "https://images.unsplash.com/photo-1513956589380-bad6acb9b9d4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=776&q=80"
+    name: "Dr. Shailesh Kumar",
+    role: "Chief Data Scientist",
+    company: "Reliance Jio",
+    expertise: "Machine Learning, Data Science, AI for Telecom, Predictive Analytics",
+    topic: "AI-Powered Product Innovation at Scale",
+    image: "/speakers/shailesh-kumar.png"
   }
+   
 ];
 
 export function ExpertSpeakers() {

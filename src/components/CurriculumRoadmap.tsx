@@ -1,174 +1,165 @@
-
 import { useState } from "react";
 import { cn } from "@/lib/utils";
 
 const weeks = [
   {
     number: 1,
-    title: "AI Foundations",
-    description: "Building the essential knowledge base for product professionals.",
+    title: "Foundation Setup",
+    description: "Building the essential foundation for your journey.",
     sessions: [
       {
-        title: "Kickoff & Fundamentals",
+        title: "Getting Started",
         topics: [
-          "AI landscape overview and terminology",
-          "Major models and capabilities",
-          "Hands-on prompt engineering workshop"
-        ]
-      },
-      {
-        title: "Product Thinking in the AI Era",
-        topics: [
-          "Panel on AI transformation of product development",
-          "Discussion of successful AI product case studies",
-          "Interactive Q&A with practitioners"
+          "Program overview and expectations",
+          "Setting up tools and resources",
+          "Initial assessments and goal setting"
         ]
       }
     ],
     resources: [
-      "AI Terminology Glossary",
-      "Prompt Engineering Cheat Sheet",
-      "Case Studies: Notable AI Product Launches"
+      "Program Guide",
+      "Tools Setup Guide",
+      "Goal Setting Template"
     ]
   },
   {
     number: 2,
-    title: "AI Product Manager's Toolkit",
-    description: "Developing practical product skills for AI-powered solutions.",
+    title: "First Role-Play & Challenge",
+    description: "Developing practical skills through role-play and challenges.",
     sessions: [
       {
-        title: "AI Product Requirements & Scoping",
+        title: "Role-Play Fundamentals",
         topics: [
-          "Identifying AI-suitable problems",
-          "Creating AI-specific PRDs",
-          "Workshop: Traditional → AI-enhanced solutions"
-        ]
-      },
-      {
-        title: "Product Teardown Night",
-        topics: [
-          "Live deconstruction of successful AI products",
-          "Pattern recognition in AI interfaces",
-          "Group analysis of UX elements"
+          "Introduction to role-play scenarios",
+          "First challenge briefing",
+          "Feedback and improvement strategies"
         ]
       }
     ],
     resources: [
-      "AI PRD Template",
-      "AI Feature Specification Guide",
-      "Product Teardown Framework"
+      "Role-Play Guide",
+      "Challenge Framework",
+      "Feedback Template"
     ]
   },
   {
     number: 3,
-    title: "Building with AI: Tools & Techniques",
-    description: "Exploring the development landscape for AI products.",
+    title: "Community & Partnerships",
+    description: "Building relationships and collaborative networks.",
     sessions: [
       {
-        title: "No-Code/Low-Code AI Development",
+        title: "Community Building",
         topics: [
-          "Survey of accessible AI tools",
-          "Live demo of application building",
-          "Tool selection framework"
-        ]
-      },
-      {
-        title: "Technical Considerations",
-        topics: [
-          "Data requirements",
-          "Model selection strategies",
-          "PM-Engineer collaboration techniques"
+          "Network development strategies",
+          "Partnership opportunities",
+          "Collaboration frameworks"
         ]
       }
     ],
     resources: [
-      "AI Tool Comparison Matrix",
-      "Data Requirements Checklist",
-      "Technical-Product Collaboration Guide"
+      "Networking Guide",
+      "Partnership Templates",
+      "Community Guidelines"
     ]
   },
   {
     number: 4,
-    title: "AI UX & User Research",
-    description: "Creating intuitive AI experiences that users love.",
+    title: "Second Role-Play & Content",
+    description: "Advancing skills through advanced role-play scenarios.",
     sessions: [
       {
-        title: "Designing Intuitive AI Interfaces",
+        title: "Advanced Role-Play",
         topics: [
-          "Best practices for AI UX",
-          "Handling uncertainty and errors",
-          "Workshop: Redesigning with AI capabilities"
-        ]
-      },
-      {
-        title: "User Research for AI Products",
-        topics: [
-          "Testing methods specific to AI",
-          "Measuring AI experience metrics",
-          "Peer feedback session on concepts"
+          "Complex scenario handling",
+          "Content creation strategies",
+          "Performance improvement"
         ]
       }
     ],
     resources: [
-      "AI UX Pattern Library",
-      "User Testing Script for AI Products",
-      "Feedback Framework Template"
+      "Advanced Scenarios Guide",
+      "Content Creation Templates",
+      "Performance Metrics"
     ]
   },
   {
     number: 5,
-    title: "AI Ethics & Responsible Innovation",
-    description: "Building trust and responsibility into AI products.",
+    title: "Second Challenge & Engagement",
+    description: "Taking on new challenges and deepening engagement.",
     sessions: [
       {
-        title: "Ethics by Design",
+        title: "Challenge Deep Dive",
         topics: [
-          "Responsible AI product principles",
-          "Addressing bias and transparency issues",
-          "Risk assessment frameworks"
-        ]
-      },
-      {
-        title: "Mini-Hackathon: Ethical AI Solutions",
-        topics: [
-          "Team collaboration on ethical challenges",
-          "Solution development and presentation",
-          "Expert feedback on approaches"
+          "Advanced challenge strategies",
+          "Engagement techniques",
+          "Success metrics"
         ]
       }
     ],
     resources: [
-      "AI Ethics Checklist",
-      "Responsible AI Design Canvas",
-      "Case Studies in AI Ethics Failures"
+      "Challenge Handbook",
+      "Engagement Guide",
+      "Metrics Dashboard"
     ]
   },
   {
     number: 6,
-    title: "Launch & Scale",
-    description: "Taking your AI product to market successfully.",
+    title: "Third Role-Play & Promotion",
+    description: "Mastering role-play scenarios and promotion strategies.",
     sessions: [
       {
-        title: "From Prototype to Production",
+        title: "Mastery & Promotion",
         topics: [
-          "Launch strategies for AI products",
-          "Metrics that matter for success",
-          "Iteration and improvement cycles"
-        ]
-      },
-      {
-        title: "Demo Day & Celebration",
-        topics: [
-          "Project showcase presentations",
-          "Expert panel feedback",
-          "Awards and recognition"
+          "Expert role-play techniques",
+          "Promotion strategies",
+          "Success planning"
         ]
       }
     ],
     resources: [
-      "AI Launch Playbook",
-      "Metrics Framework for AI Products",
-      "Presentation Template for Demo Day"
+      "Mastery Guide",
+      "Promotion Toolkit",
+      "Success Templates"
+    ]
+  },
+  {
+    number: 7,
+    title: "Final Challenge & Certificates",
+    description: "Completing final challenges and earning certification.",
+    sessions: [
+      {
+        title: "Final Challenge",
+        topics: [
+          "Challenge completion",
+          "Certificate requirements",
+          "Final assessments"
+        ]
+      }
+    ],
+    resources: [
+      "Challenge Guide",
+      "Certificate Requirements",
+      "Assessment Criteria"
+    ]
+  },
+  {
+    number: 8,
+    title: "Final Push & Registrations",
+    description: "Concluding the program and preparing for next steps.",
+    sessions: [
+      {
+        title: "Program Conclusion",
+        topics: [
+          "Final steps completion",
+          "Registration process",
+          "Future planning"
+        ]
+      }
+    ],
+    resources: [
+      "Completion Guide",
+      "Registration Process",
+      "Future Planning Template"
     ]
   }
 ];
