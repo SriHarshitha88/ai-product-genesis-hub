@@ -3,43 +3,33 @@ import { CheckCircle } from "lucide-react";
 const milestones = [
   {
     week: "Week 1",
-    title: "Foundation Setup",
-    description: "Building the essential foundation for your journey"
+    title: "Foundations for Product Leaders",
+    description: "Master essential AI concepts and leadership principles"
   },
   {
     week: "Week 2",
-    title: "First Role-Play & Challenge",
-    description: "Developing practical skills through role-play"
+    title: "AI Product Thinking",
+    description: "Develop strategic approaches to AI product development"
   },
   {
     week: "Week 3",
-    title: "Community & Partnerships",
-    description: "Building relationships and collaborative networks"
+    title: "Build Without Coding",
+    description: "Create AI solutions using no-code and low-code platforms"
   },
   {
     week: "Week 4",
-    title: "Second Role-Play & Content",
-    description: "Advancing skills through advanced scenarios"
+    title: "Architecting Data-Strategy & Vertical Insights",
+    description: "Design data strategies and industry-specific solutions"
   },
   {
     week: "Week 5",
-    title: "Second Challenge & Engagement",
-    description: "Taking on new challenges and deepening engagement"
+    title: "Responsible AI-Ethics, ROI, and Tool Mastery",
+    description: "Balance ethics, business value, and technical implementation"
   },
   {
     week: "Week 6",
-    title: "Third Role-Play & Promotion",
-    description: "Mastering role-play and promotion strategies"
-  },
-  {
-    week: "Week 7",
-    title: "Final Challenge & Certificates",
-    description: "Completing challenges and earning certification"
-  },
-  {
-    week: "Week 8",
-    title: "Final Push & Registrations",
-    description: "Concluding the program and preparing next steps"
+    title: "From Pitch to Launch-Capstone",
+    description: "Execute your project from concept to market launch"
   }
 ];
 
