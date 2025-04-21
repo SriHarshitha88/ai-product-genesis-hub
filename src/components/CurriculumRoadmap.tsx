@@ -4,162 +4,122 @@ import { cn } from "@/lib/utils";
 const weeks = [
   {
     number: 1,
-    title: "Foundation Setup",
-    description: "Building the essential foundation for your journey.",
+    title: "Foundations for Product Leaders",
+    description: "Essential foundations and leadership principles for AI product development.",
     sessions: [
       {
-        title: "Getting Started",
+        title: "Product Leadership in AI Era",
         topics: [
-          "Program overview and expectations",
-          "Setting up tools and resources",
-          "Initial assessments and goal setting"
+          "AI landscape and product leadership",
+          "Key concepts and terminology",
+          "Leadership strategies in AI transformation"
         ]
       }
     ],
     resources: [
-      "Program Guide",
-      "Tools Setup Guide",
-      "Goal Setting Template"
+      "AI Leadership Playbook",
+      "Foundation Concepts Guide",
+      "Leadership Assessment Tools"
     ]
   },
   {
     number: 2,
-    title: "First Role-Play & Challenge",
-    description: "Developing practical skills through role-play and challenges.",
+    title: "AI Product Thinking",
+    description: "Developing strategic product thinking for AI solutions.",
     sessions: [
       {
-        title: "Role-Play Fundamentals",
+        title: "Strategic AI Product Development",
         topics: [
-          "Introduction to role-play scenarios",
-          "First challenge briefing",
-          "Feedback and improvement strategies"
+          "AI product strategy frameworks",
+          "Problem-solution fit in AI",
+          "User-centric AI product design"
         ]
       }
     ],
     resources: [
-      "Role-Play Guide",
-      "Challenge Framework",
-      "Feedback Template"
+      "AI Strategy Toolkit",
+      "Product Framework Templates",
+      "Case Studies Collection"
     ]
   },
   {
     number: 3,
-    title: "Community & Partnerships",
-    description: "Building relationships and collaborative networks.",
+    title: "Build Without Coding",
+    description: "Creating AI solutions using no-code and low-code approaches.",
     sessions: [
       {
-        title: "Community Building",
+        title: "No-Code AI Development",
         topics: [
-          "Network development strategies",
-          "Partnership opportunities",
-          "Collaboration frameworks"
+          "No-code AI platform mastery",
+          "Rapid prototyping techniques",
+          "Integration strategies"
         ]
       }
     ],
     resources: [
-      "Networking Guide",
-      "Partnership Templates",
-      "Community Guidelines"
+      "No-Code Tools Guide",
+      "Prototyping Templates",
+      "Integration Playbook"
     ]
   },
   {
     number: 4,
-    title: "Second Role-Play & Content",
-    description: "Advancing skills through advanced role-play scenarios.",
+    title: "Architecting Data-Strategy & Vertical Insights",
+    description: "Developing data strategies and industry-specific solutions.",
     sessions: [
       {
-        title: "Advanced Role-Play",
+        title: "Data Strategy & Industry Focus",
         topics: [
-          "Complex scenario handling",
-          "Content creation strategies",
-          "Performance improvement"
+          "Data architecture principles",
+          "Vertical-specific strategies",
+          "Industry use case analysis"
         ]
       }
     ],
     resources: [
-      "Advanced Scenarios Guide",
-      "Content Creation Templates",
-      "Performance Metrics"
+      "Data Strategy Framework",
+      "Industry Insights Guide",
+      "Use Case Templates"
     ]
   },
   {
     number: 5,
-    title: "Second Challenge & Engagement",
-    description: "Taking on new challenges and deepening engagement.",
+    title: "Responsible AI-Ethics, ROI, and Tool Mastery",
+    description: "Balancing ethics, business value, and technical implementation.",
     sessions: [
       {
-        title: "Challenge Deep Dive",
+        title: "Ethics & Business Value",
         topics: [
-          "Advanced challenge strategies",
-          "Engagement techniques",
-          "Success metrics"
+          "AI ethics frameworks",
+          "ROI calculation methods",
+          "Advanced tool implementation"
         ]
       }
     ],
     resources: [
-      "Challenge Handbook",
-      "Engagement Guide",
-      "Metrics Dashboard"
+      "Ethics Guidelines",
+      "ROI Calculator",
+      "Tool Mastery Guide"
     ]
   },
   {
     number: 6,
-    title: "Third Role-Play & Promotion",
-    description: "Mastering role-play scenarios and promotion strategies.",
+    title: "From Pitch to Launch-Capstone",
+    description: "Bringing it all together from concept to market launch.",
     sessions: [
       {
-        title: "Mastery & Promotion",
+        title: "Launch Preparation",
         topics: [
-          "Expert role-play techniques",
-          "Promotion strategies",
-          "Success planning"
+          "Pitch deck creation",
+          "Go-to-market strategy",
+          "Launch execution plan"
         ]
       }
     ],
     resources: [
-      "Mastery Guide",
-      "Promotion Toolkit",
-      "Success Templates"
-    ]
-  },
-  {
-    number: 7,
-    title: "Final Challenge & Certificates",
-    description: "Completing final challenges and earning certification.",
-    sessions: [
-      {
-        title: "Final Challenge",
-        topics: [
-          "Challenge completion",
-          "Certificate requirements",
-          "Final assessments"
-        ]
-      }
-    ],
-    resources: [
-      "Challenge Guide",
-      "Certificate Requirements",
-      "Assessment Criteria"
-    ]
-  },
-  {
-    number: 8,
-    title: "Final Push & Registrations",
-    description: "Concluding the program and preparing for next steps.",
-    sessions: [
-      {
-        title: "Program Conclusion",
-        topics: [
-          "Final steps completion",
-          "Registration process",
-          "Future planning"
-        ]
-      }
-    ],
-    resources: [
-      "Completion Guide",
-      "Registration Process",
-      "Future Planning Template"
+      "Pitch Deck Template",
+      "Launch Checklist",
+      "Success Metrics Framework"
     ]
   }
 ];
